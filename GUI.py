@@ -26,7 +26,7 @@ def clear_input():
 def homepage():
 
     layout = [
-        [sg.Text('Enter Your Birthday ', size=(20,1)), sg.InputText(key='value')],
+        [sg.Text('Enter Your Birthday (DD MM YYYY) :', size=(40,1)), sg.InputText(key='value')],
         [sg.Button('Enter'), sg.Button('Clear'), sg.Exit()]
     ]      
 
